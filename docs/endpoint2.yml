@@ -1,0 +1,16 @@
+tags:
+  - name: Text Processing
+get:
+  description: Teks yang akan diproses
+parameters:
+  - name: file
+    in: dalam format CSV
+    required: true
+    type: file
+responses:
+  '200':
+    description: Successful response
+  '400':
+    description: Bad Request
+  '500':
+    description: Internal Server Error
